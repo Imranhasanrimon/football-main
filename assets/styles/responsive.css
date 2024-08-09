@@ -37,6 +37,12 @@
     .highlight .container h2 {
         font-size: 2rem;
     }
+
+    /* footer styles  */
+    .footer .logo {
+        width: 50%;
+    }
+
 }
 
 /* for medium devices  */
