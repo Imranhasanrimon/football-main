@@ -111,3 +111,33 @@ header nav ul a {
     font-size: 2rem;
     margin: 10px 0;
 }
+
+/* highlight section */
+.highlight {
+    max-width: 1300px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.highlight .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 70px;
+}
+
+.highlight .container h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.highlight .container p {
+    color: rgb(108, 108, 108);
+    margin-bottom: 24px;
+}
+
+.highlight .image img {
+    width: 100%;
+    height: 400px;
+}
